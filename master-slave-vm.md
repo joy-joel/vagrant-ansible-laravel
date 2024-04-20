@@ -9,9 +9,9 @@ Steps I followed to set up virtual machines (VMs) using Vagrant for my developme
 -  Make it executable by running this command `chmod +x vagrant-master-slave.sh`
 
 ## Step 2: Running vagrant-master-slave.sh Script:
-- I ran the vagrant-master-slave.sh script in my terminal with this command `./vagrant-master.sh`. This script will automate the setup process by creating a Vagrantfile with the configurations for the VMs.
+- I ran the vagrant-master-slave.sh, script in my terminal with this command `./vagrant-master.sh`. This script will automate the setup process by creating a Vagrantfile with the configurations for the VMs.
 
-## Step 3: Creating,Initializing the Vagrantfile:
+## Step 3: Creating, and Initializing the Vagrantfile:
 - The script will generate a Vagrantfile with configurations for both the master and slave VMs, also initialize the VMs by running `vagrant up` defined at the end bash script. It specified the hostname, base box, private network settings, provisioning scripts, and provider settings for each VM. 
 
 ## Step 4: Accessing the VMs:
