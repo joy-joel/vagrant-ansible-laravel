@@ -9,9 +9,7 @@
 -  I configured Apache virtual host for the Laravel application by creating a new virtual host configuration file
 - I enabled the Apache rewrite module and the virtual host configuration.
 - I cloned the laravel main websoite from Github.
-- , I copied the `.env example` file and generate a new application key
-
-- 
-- 
-- 
-- 
+- I copied the `.env example` file to create `.env` , then generated a new application key.
+- For the MySQL configuration, I created a new database, user, and password. And I configured the Laravel application to use the newly created MySQL database, user, and password.
+- After clearing the configuration cache and running database migrations, the setup was done ready.
+- Then I tested the application on my computer browser, which i can was able to access - check *\images\deploy-lamp-stack-master-vm* directory
