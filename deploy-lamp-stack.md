@@ -1,5 +1,6 @@
 # Automate the Deployment of a LAMP (Linux, Apache, MySQL, PHP) stack.
-
+- I create a script *(deploy-lamp-stack.sh)* nd made it executable by running this command in the terminal - `sudo chmod +x deploy-lamp-stack.sh`
+- Ran the script with this command `sudo ./deploy-lamp-stack.sh`
 -  I updated and upgraded the server packages to ensure that I have the latest versions installed
 - installed the LAMP stack components - Apache, MySQL, PHP, and Ansible - along with the PHP SQLite3 extension. Not installing PHP SQLite will throw an error.
 - I did an update on the package index again and installed additional PHP modules required for Laravel.
