@@ -1,6 +1,4 @@
-# Cloud Engineering Second Semester  Cloud Engineering Second Semester Examination Project
-
-(Deploy LAMP Stack)
+# Deploy LAMP Stack Using Ansible
 
 ## Objective
 
